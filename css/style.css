@@ -122,3 +122,55 @@ body{
     color:#ff8800;
     margin-bottom:15px;
 }
+.products{
+    padding:60px 8%;
+}
+
+.products h2{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:36px;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.price{
+    color:#ff6600;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.buy-btn{
+    display:inline-block;
+    margin:20px;
+    padding:10px 25px;
+    background:#ff6600;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+}
